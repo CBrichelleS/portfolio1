@@ -1,0 +1,32 @@
+ .bgimg {
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 100%;
+   background: linear-gradient(87deg, #5c9cff, #552acb, #ff3978, #ffffff, #1cffa3);
+background-size: 1000% 1000%;  
+animation: AnimationName 23s ease infinite;
+}
+ @keyframes AnimationName {
+    0%{background-position:0% 38%}
+    50%{background-position:100% 63%}
+    100%{background-position:0% 38%}
+}
+
+.me {
+    background-image: url('/meee.jpg') ;
+    
+    
+    
+    
+    
+    
+    
+    
+    body {
+	background: #00b4ff;
+	color: #333;
+	font: 100% Lato, Arial, Sans Serif;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
